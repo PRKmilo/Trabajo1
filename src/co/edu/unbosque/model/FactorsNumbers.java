@@ -21,6 +21,7 @@ public int function() {
 	}
 	Arrays.sort(cadena);
 	if(cadena.length<=2) {
+		 a=1;
 		for(int i=0;i<cadena.length;i++) {
 			a *= cadena[i];
 		}
@@ -32,7 +33,6 @@ public int function() {
 		}
 	}
 	
-	System.out.println(mayorone);
 	return a;
 }
 }
